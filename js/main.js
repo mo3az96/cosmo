@@ -1,10 +1,10 @@
 $(window).on('load', function () {
     $('.pre-loader').fadeOut("500", function () {
-        $(this).remove();
+        // $(this).remove();
         $("body").removeClass("overflow");
     });
-    // $(".mo-modal-overlay").fadeIn(500)
-    // $(".mo-modal").addClass("mo-modal-in");
+    $(".mo-modal-overlay").fadeIn(500)
+    $(".mo-modal").addClass("mo-modal-in");
 });
 $(document).ready(function () {
     $('.mo-modal-overlay').click(function () {
