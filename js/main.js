@@ -1,7 +1,6 @@
 $(window).on('load', function () {
     $('.pre-loader').fadeOut("500", function () {
-        // $(this).remove();
-        $("body").removeClass("overflow");
+        $(this).remove();
     });
     $(".mo-modal-overlay").fadeIn(500)
     $(".mo-modal").addClass("mo-modal-in");
@@ -10,6 +9,7 @@ $(document).ready(function () {
     $('.mo-modal-overlay').click(function () {
         $(".mo-modal-overlay").fadeOut(400);
         $(".mo-modal").removeClass("mo-modal-in");
+        $("body").removeClass("overflow");
     });
     $('.mo-modal').click(function (e) {
         e.stopPropagation();

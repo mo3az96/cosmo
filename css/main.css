@@ -525,6 +525,7 @@ html[dir=ltr] .whats-link img {
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
 }
 @media (max-width: 767px) {
   .cat .cat-name {
@@ -549,6 +550,7 @@ html[dir=ltr] .whats-link img {
   color: #fff;
   margin: auto;
   font-family: med;
+  text-transform: uppercase;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -585,9 +587,7 @@ html[dir=ltr] .whats-link img {
 }
 .product .pro-name {
   text-align: center;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   font-size: 17px;
   color: #3e3f40;
   max-width: 100%;
@@ -599,6 +599,7 @@ html[dir=ltr] .whats-link img {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   margin: 27px 0 9px;
+  padding: 0 5px;
 }
 .product .pro-name:hover, .product .pro-name:focus {
   color: #bf8774;
@@ -759,6 +760,9 @@ html[dir=ltr] .mo-modal-close {
   text-align: center;
   margin-bottom: 14px;
 }
+html[dir=ltr] .news-head {
+  font-size: 28px;
+}
 
 .news-subhead {
   font-size: 17px;
@@ -779,6 +783,10 @@ html[dir=ltr] .mo-modal-close {
   font-size: 20px;
   color: #999797;
 }
+html[dir=ltr] .news-input-cont span {
+  right: auto;
+  left: 9px;
+}
 
 .news-input {
   border: none;
@@ -789,6 +797,10 @@ html[dir=ltr] .mo-modal-close {
   padding-right: 42px;
   font-size: 16px;
   color: #3e3f40;
+}
+html[dir=ltr] .news-input {
+  padding: 0 25px;
+  padding-left: 42px;
 }
 .news-input::placeholder {
   color: #999797;
@@ -818,6 +830,7 @@ html[dir=ltr] .news-input::placeholder {
   -o-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  text-transform: uppercase;
 }
 .news-button:hover, .news-button:focus {
   color: #fff;
@@ -1195,6 +1208,10 @@ html[dir=ltr] .user-anchor:last-of-type {
     padding-top: 5px;
   }
 }
+html[dir=ltr] .user-anchor .count {
+  right: auto;
+  left: 10px;
+}
 .user-anchor:hover, .user-anchor:focus {
   color: #bf8774;
 }
@@ -1221,6 +1238,7 @@ html[dir=ltr] .user-anchor:last-of-type {
   color: #6a483c;
   font-family: med;
   text-align: center;
+  text-transform: capitalize;
 }
 .sec-head::before {
   content: url("../images/after.png");
@@ -1296,6 +1314,7 @@ html[dir=ltr] .user-anchor:last-of-type {
   color: #3e3f40;
   font-family: bold;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 @media (max-width: 992px) {
   .foot-header.social-header {
