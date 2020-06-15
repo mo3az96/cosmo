@@ -1281,6 +1281,12 @@ html[dir=ltr] .user-anchor .count {
   display: flex;
   align-items: center;
 }
+@media (max-width: 992px) {
+  .feat .feat-cont {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .feat:nth-of-type(2n) {
   background-color: #b07c6b;
 }
