@@ -1,5 +1,5 @@
 $(window).on('load', function () {
-    $('.pre-loader').fadeOut("500", function () {
+    $('.pre-loader').delay(4250).fadeOut("500", function () {
         $(this).remove();
     });
     $(".mo-modal-overlay").fadeIn(500)

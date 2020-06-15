@@ -854,18 +854,18 @@ html[dir=ltr] .news-input::placeholder {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: #f7f7f7;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .pre-loader img {
-  width: 200px;
+  width: 300px;
   border-radius: 12px;
 }
 @media (max-width: 767px) {
   .pre-loader img {
-    width: 100px;
+    width: 200px;
   }
 }
 .pre-loader .content {
@@ -874,117 +874,7 @@ html[dir=ltr] .news-input::placeholder {
   justify-content: center;
   flex-direction: column;
 }
-.pre-loader .progress-bar {
-  background-color: #6a483c;
-  border: none;
-  overflow: hidden;
-  width: 200px;
-  height: 2px;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  margin: 20px 0 0 0;
-}
-@media (max-width: 767px) {
-  .pre-loader .progress-bar {
-    width: 100px;
-  }
-}
-.pre-loader .progress-bar .Shape_1 {
-  background-color: #6a483c;
-  position: absolute;
-  left: 583px;
-  top: 459px;
-  width: 200px;
-  height: 2px;
-  z-index: 4;
-}
-.pre-loader .progress-bar span {
-  display: block;
-}
-.pre-loader .bar {
-  background-color: #ccc;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.pre-loader .progress {
-  -webkit-animation: loader 8s ease infinite;
-  animation: loader 8s ease infinite;
-  background: #6a483c;
-  border: none;
-  padding: 0px;
-  width: 0;
-  height: 2px;
-}
-.pre-loader .progress-bar {
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
-}
 
-@-webkit-keyframes loader {
-  0% {
-    width: 0;
-  }
-  20% {
-    width: 10%;
-  }
-  25% {
-    width: 24%;
-  }
-  43% {
-    width: 41%;
-  }
-  56% {
-    width: 50%;
-  }
-  66% {
-    width: 52%;
-  }
-  71% {
-    width: 60%;
-  }
-  75% {
-    width: 76%;
-  }
-  94% {
-    width: 86%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-@keyframes loader {
-  0% {
-    width: 0;
-  }
-  20% {
-    width: 10%;
-  }
-  25% {
-    width: 24%;
-  }
-  43% {
-    width: 41%;
-  }
-  56% {
-    width: 50%;
-  }
-  66% {
-    width: 52%;
-  }
-  71% {
-    width: 60%;
-  }
-  75% {
-    width: 76%;
-  }
-  94% {
-    width: 86%;
-  }
-  100% {
-    width: 100%;
-  }
-}
-/*//////////////////////////////preloader//////////////////////////////*/
 header {
   background-color: #fff;
 }
