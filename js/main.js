@@ -96,6 +96,8 @@ $(document).ready(function () {
         /////acc/////
         $(".nav-foot-header").addClass("mo-accordion");
         $(".nav-foot").addClass("mo-panel");
+        $(".drop-li .nav-a").addClass("mo-accordion");
+        $(".drop-li .sub-menu").addClass("mo-panel");
         ///////////////search/////////////////////
         $('.mo-search-icon').click(function () {
             $(".search-form").fadeIn(400);
