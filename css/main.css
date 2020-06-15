@@ -778,8 +778,7 @@ html[dir=ltr] .news-head {
 .news-input-cont span {
   position: absolute;
   right: 9px;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 22px;
   font-size: 20px;
   color: #999797;
 }
