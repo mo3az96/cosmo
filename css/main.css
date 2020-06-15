@@ -1595,12 +1595,13 @@ html[dir=ltr] nav .mo-menu-close {
     padding: 0;
     margin: 7px 0;
     line-height: 1;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: block;
   }
   nav .sub-li:last-of-type {
     margin-bottom: 10px;
+  }
+  nav .sub-a {
+    display: block;
   }
 }
 
