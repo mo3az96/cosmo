@@ -1277,6 +1277,10 @@ html[dir=ltr] .user-anchor .count {
   align-items: center;
   background-color: #bf8774;
 }
+.feat .feat-cont {
+  display: flex;
+  align-items: center;
+}
 .feat:nth-of-type(2n) {
   background-color: #b07c6b;
 }

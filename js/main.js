@@ -6,6 +6,7 @@ $(window).on('load', function () {
     $(".mo-modal").addClass("mo-modal-in");
 });
 $(document).ready(function () {
+    new WOW().init();
     $('.mo-modal-overlay').click(function () {
         $(".mo-modal-overlay").fadeOut(400);
         $(".mo-modal").removeClass("mo-modal-in");
