@@ -963,6 +963,11 @@ header {
   align-items: center;
   padding: 15px 0;
 }
+@media (max-width: 767px) {
+  .header {
+    padding: 0;
+  }
+}
 
 .logo {
   width: 181px;
